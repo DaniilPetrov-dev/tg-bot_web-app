@@ -74,9 +74,10 @@ img {
 	background: var(--tg-theme-button-color);
 	color: var(--tg-theme-button-text-color);
 	border-radius: 10px;
-	border: none;
 	transition: all .1s ease-in-out;
 	cursor: pointer;
+	width: 100%;
+	padding: 10px;
 }
 
 .cart .add-to-cart:active {
@@ -98,6 +99,13 @@ img {
 	clear: both;
 }
 
-.main-cart img {
+.mini-cart img {
 	max-width: 48px;
+}
+
+.mini-cart button {
+	background: var(--tg-theme-button-color);
+	color: var(--tg-theme-button-text-color);
+	border-radius: 10px;
+	cursor: pointer;
 }
