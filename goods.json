@@ -1,0 +1,49 @@
+{
+	"1234" : {
+		"name" : "Раф" ,
+		"cost" : 220,
+		"description" : "Эспрессо, сливки, ваниль",
+		"order" : 1,
+		"img" : "raf.jpg"
+	},
+
+	"1235" : {
+		"name" : "Белый русский" ,
+		"cost" : 250,
+		"description" : "Водка, кофейный ликёр, сливки",
+		"order" : 2,
+		"img" : "wh-russian.jpg"
+	},
+
+	"1236" : {
+		"name" : "Апероль шприц" ,
+		"cost" : 210,
+		"description" : "Апероль, просекко, содовая",
+		"order" : 3,
+		"img" : "aperol.jpg"
+	},
+
+	"1237" : {
+		"name" : "Аффогато" ,
+		"cost" : 250,
+		"description" : "Эспрессо, мороженое",
+		"order" : 4,
+		"img" : "affogato.jpg"
+	},
+
+	"1238" : {
+		"name" : "Тоник" ,
+		"cost" : 220,
+		"description" : "Эспрессо, тоник",
+		"order" : 5,
+		"img" : "tonik.jpg"
+	},
+
+	"1239" : {
+		"name" : "Лимонад" ,
+		"cost" : 120,
+		"description" : "Лимон, содовая, сироп",
+		"order" : 6,
+		"img" : "lemonade.jpg"
+	}
+}
