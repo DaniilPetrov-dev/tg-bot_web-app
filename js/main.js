@@ -31,6 +31,11 @@ function addToCart() {
 	}
 	console.log(cart);
 	showMiniCart();
+	saveCart();
+}
+
+function saveCart() {
+	localStorage.setItem('cart', JSON.stringify(cart));
 }
 
 function showMiniCart () {
@@ -41,6 +46,14 @@ function showMiniCart () {
 	$('.mini-cart').html(out);
 }
 
+function loadCart() {
+	if (localStorage.getItem('cart')) {
+		cart = JSON.parse(localStorage.getItem('cart'));
+		showMiniCart();
+	}
+}
+
 $(document).ready(function (){
 	init();
+	loadCart();
 });
