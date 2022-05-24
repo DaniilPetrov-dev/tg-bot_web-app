@@ -39,6 +39,7 @@
 	font-size: 18px;
  }
 
+
  .cart {
 	max-width: 200px;
 	width: 100%;
@@ -78,10 +79,11 @@ img {
 	cursor: pointer;
 	width: 100%;
 	padding: 10px;
+	border: none;
 }
 
 .cart .add-to-cart:active {
-   transform: scale(-0.01);
+   border: 1px solid grey;
 }
 
 .goods-out {
@@ -108,4 +110,5 @@ img {
 	color: var(--tg-theme-button-text-color);
 	border-radius: 10px;
 	cursor: pointer;
+	border: none;
 }
